@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TalentBridge
 
-## Getting Started
+Plataforma web de gestión de talento universitario que conecta estudiantes y egresados del departamento del Cesar con empresas que requieren perfiles calificados para proyectos, microtrabajos o contrataciones formales.
 
-First, run the development server:
+## Integrantes:
+Josheph Javier Martínez Tapias -- Backend Developer / Scrum Master
+Oscar Daniel Duque --	Frontend Developer / Product Owner
+Sebastián Carrillo --	Frontend Developer / n8n Integration
 
-```bash
+## Requisitos
+
+* Node.js (versión 18 o superior)
+* npm (incluido con Node.js)
+
+## Instalar dependencias
+
+npm install
+
+## Ejecutar el proyecto
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir en el navegador:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Librerías usadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Next.js
+* lucide-react (para iconos)
 
-## Learn More
+## Estructura del proyecto
 
-To learn more about Next.js, take a look at the following resources:
+/app → páginas
+/components → componentes reutilizables
+/public → imágenes y recursos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Notas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Este proyecto es solo frontend
+* No requiere base de datos
+* Si ocurre algún error, ejecutar nuevamente: npm install
